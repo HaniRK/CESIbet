@@ -1,8 +1,6 @@
 # CESIbet
 Mini-jeu entre amis
 
-Notice technique : 
-
 Installation : 
 Cesibet\bin\Debug\netcoreapp3.1\Cesibet.exe
 
@@ -16,7 +14,7 @@ Design Patterns :
 MVVM pour séparer la logique du programme et les contrôles de l’interface utilisateur UI.
 Abstract factory pour encapsuler des familles d'objets liés qui ont un thème commun sans spécifier leurs classes concrètes.
 Singleton afin de restreindre l'instanciation d'une classe à un seul objet (ou bien à quelques objets seulement).
-Strategy afin de permuter dynamiquement les algorithmes utilisés. Il permet de fournir le moyen de définir une famille d'algorithmes, encapsuler chacun d'eux en tant qu'objet, et les rendre interchangeables.
+Strategy afin de permuter dynamiquement les algorithmes utilisés, il permet de fournir le moyen de définir une famille d'algorithmes, encapsuler chacun d'eux en tant qu'objet, et les rendre interchangeables.
 
 Mécanisme de synchronisation :
 Sockets. Ils permettent une communication point-to-point et bidirectionnelle entre deux processus. ils sont très polyvalents et constituent un élément de base de la communication interprocessus et intersystème. 
